@@ -6,7 +6,6 @@
   align-items: center;
   background-color: #fff;
   border: 2px solid #000;
-  border-radius: 50%;
   box-sizing: border-box;
   color: #000;
   cursor: pointer;
@@ -35,16 +34,15 @@
 }
 
 .feedbackBtn:hover {
-  border-radius: 35%;
-  border-color: yellowgreen;
-  color: yellowgreen;
-  fill: yellowgreen;
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
 }
 
 .feedbackBtn:active {
-  border-color: yellowgreen;
-  color: yellowgreen;
-  fill: yellowgreen;
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
 }
 
 .feedbackBtn:nth-of-type(even) {
